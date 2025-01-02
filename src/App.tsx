@@ -69,6 +69,7 @@ const App: FC<Props> = () => {
       </Routes>
 
       <Toaster />
+      <TestConnection /> 
     </Container>
   );
 };
