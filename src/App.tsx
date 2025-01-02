@@ -27,7 +27,6 @@ import ReadingPage from "./views/ReadingPage";
 import Search from "./views/Search";
 import TestConnection from "./components/TestConnection"; // Importer le composant TestConnection
 
-
 interface Props {}
 
 const App: FC<Props> = () => {
@@ -71,7 +70,7 @@ const App: FC<Props> = () => {
       </Routes>
 
       <Toaster />
-      <TestConnection /> 
+      <TestConnection /> {/* Ajouter le composant TestConnection ici */}
     </Container>
   );
 };
