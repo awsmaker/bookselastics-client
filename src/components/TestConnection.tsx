@@ -1,9 +1,9 @@
 import React from 'react';
 
-const TestConnection = () => {
+const TestConnection: React.FC = () => {
   const testConnection = async () => {
     try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/books`);
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/books`);
       const data = await response.json();
       console.log('Backend response:', data);
     } catch (error) {
