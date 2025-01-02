@@ -25,6 +25,8 @@ import AuthorPage from "./views/AuthorPage";
 import Library from "./views/Library";
 import ReadingPage from "./views/ReadingPage";
 import Search from "./views/Search";
+import TestConnection from "./components/TestConnection"; // Importer le composant TestConnection
+
 
 interface Props {}
 
